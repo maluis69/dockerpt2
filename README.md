@@ -20,3 +20,12 @@ This repository demonstrates a CI/CD pipeline with GitHub Actions to automatical
 1. Pull the Docker image:
    ```bash
    docker pull lam79/devops_demo:latest
+2. Run the container:
+   docker run --rm lam79/devops_demo:latest
+
+3. Commit the Changes**
+- After editing the README file, commit and push the changes to GitHub:
+  ```bash
+  git add README.md images/project2.PNG
+  git commit -m "Added Docker Hub screenshot to README"
+  git push origin main
